@@ -1,0 +1,36 @@
+/* Skill.module.css */
+.skill-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.skill-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.spa13 {
+  padding-bottom: 20px;
+  font-weight: 600 !important;
+  
+}
+
+legend {
+  max-width: 25%;
+  font-size: 20px !important;
+}
+
+.spa22 {
+  justify-content: center !important;
+}
+
+@media screen and (max-width: 767px) {
+  legend {
+    max-width: unset;
+    width: 0%;
+  }
+  .spa13 {
+    padding-bottom: 100px;
+  }
+}

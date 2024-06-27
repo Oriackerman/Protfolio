@@ -1,0 +1,65 @@
+/* DynamicText.module.css */
+@keyframes slideOutAndIn {
+  0%,
+  25% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  25%,
+  50% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  50%,
+  75% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  75%,
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.dynamicText {
+  animation: slideOutAndIn 3s ease-in-out infinite;
+}
+
+h2 {
+  font-size: 58px;
+  color: #fff;
+  font-weight: 800;
+}
+
+/* dynamic.module.css */
+@keyframes blinkCursor {
+  50% {
+    opacity: 0;
+  }
+}
+
+.cursor {
+  font-size: 58px;
+  color: #fff;
+  font-weight: 800;
+  opacity: 1;
+  animation: blinkCursor 1s infinite;
+  font-weight: bold;
+}
+
+.typing {
+  display: inline;
+}
+
+.space22 {
+  margin-bottom: 130px;
+}
+
+@media screen and (max-width: 767px) {
+  h2 {
+    font-size: 30px;
+  }
+  .cursor {
+    font-size: 30px;
+  }
+}

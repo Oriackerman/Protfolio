@@ -1,0 +1,74 @@
+.custom-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  font-size: 20px;
+  padding: 20px 20px;
+  margin-right: 50px;
+  margin-top: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.custom-button:hover,
+.custom-button:focus {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  color: black;
+}
+
+span {
+  padding-bottom: 5px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.custom-button {
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 767px) {
+  .custom-button {
+    white-space: nowrap;
+    font-size: 17px;
+  }
+}
+
+.title24 {
+  color: #020b1f;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+  padding: 16px 24px;
+  margin-bottom: 3px;
+}
+
+.title24 svg {
+  margin-left: 10px;
+}
+label {
+  margin-bottom: 20px;
+}
+
+.textfield-margin-bottom {
+  margin-bottom: 26px;
+}
+
+.linkd2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 28px;
+  margin-left: 30px;
+}

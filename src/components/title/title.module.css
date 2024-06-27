@@ -1,0 +1,25 @@
+h1 {
+  font-family: Poppins !important;
+  color: transparent !important;
+  display: inline-block;
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 800 !important;
+  line-height: 1.2;
+  overflow: hidden;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #fff;
+  margin-bottom: 25px;
+}
+
+.dynamicText {
+  font-size: 38px;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 35px;
+  }
+}
